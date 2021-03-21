@@ -1,0 +1,27 @@
+﻿<Window x:Class="VotiPassatoBocciato.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VotiPassatoBocciato"
+        mc:Ignorable="d"
+        Title="Passato o Bocciato?" Height="450" Width="800">
+    <Grid>
+        <Label Content="Voto2" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1,1.115" Margin="80,82,0,0" Width="78" FontWeight="Bold" FontFamily="Verdana"/>
+        <Label Content="Voto1" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="4.026,1.808" Margin="80,24,0,0" Width="78" FontWeight="Bold" FontFamily="Verdana"/>
+        <Label Content="Voto3" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1,1.115" Margin="80,141,0,0" Width="78" FontWeight="Bold" FontFamily="Verdana"/>
+        <Label Content="Voto4" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1,1.115" Margin="80,205,0,0" Width="78" FontWeight="Bold" FontFamily="Verdana"/>
+        <TextBox x:Name="txtVoto1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.333,1.174" Margin="199,27,0,0" FontStyle="Italic" FontFamily="Verdana"/>
+        <TextBox x:Name="txtVoto2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.333,1.174" Margin="199,82,0,0" FontStyle="Italic" FontFamily="Verdana"/>
+        <TextBox x:Name="txtVoto3" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.333,1.174" Margin="199,141,0,0" FontFamily="Verdana" FontStyle="Italic"/>
+        <TextBox x:Name="txtVoto4" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.333,1.174" Margin="199,205,0,0" FontFamily="Verdana" FontStyle="Italic"/>
+        <Label Content="Media" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1,1.115" Margin="399,22,0,0" Width="78" FontWeight="Bold" FontFamily="Verdana" FontSize="14"/>
+        <Button Content="MOSTRA"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="160" RenderTransformOrigin="5.12,2.75" Margin="80,305,0,0" Height="79" Click="Button_Click" FontWeight="Bold" FontFamily="Verdana" FontSize="16" Background="#FFCBCBCB"/>
+        <Label x:Name="lblPromossoBocciato" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1,1.115" Margin="317,320,0,0" Width="160" Height="41" FontWeight="Bold" FontStyle="Italic" FontFamily="Verdana" FontSize="14" Background="#FFEAEAEA"/>
+        <TextBox x:Name="txtMedia" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="78" RenderTransformOrigin="1.333,1.174" Margin="399,82,0,0" FontFamily="Verdana" FontStyle="Italic"/>
+        <Label Content="Max" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1,1.115" Margin="482,22,0,0" Width="78" FontWeight="Bold" FontFamily="Verdana" FontSize="14"/>
+        <TextBox x:Name="txtMax" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" RenderTransformOrigin="1.333,1.174" Margin="482,82,0,0" FontFamily="Verdana" FontStyle="Italic"/>
+        <Label Content="Min" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1,1.115" Margin="565,22,0,0" Width="78" FontWeight="Bold" FontFamily="Verdana" FontSize="14"/>
+        <TextBox x:Name="txtMin" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="73" RenderTransformOrigin="1.333,1.174" Margin="565,82,0,0" FontFamily="Verdana" FontStyle="Italic"/>
+    </Grid>
+</Window>
